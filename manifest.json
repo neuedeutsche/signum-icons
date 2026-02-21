@@ -2,7 +2,7 @@
   "name": "signum",
   "version": "1.0.0",
   "artboardSize": 1100,
-  "iconCount": 24,
+  "iconCount": 29,
   "icons": [
     "weather.thermometre.no",
     "weather.wind.hose",
@@ -27,7 +27,12 @@
     "transit.local.trip.lane.right",
     "transit.local.trip.lane.left",
     "transit.local.trip.end",
-    "transit.local.trip.destination.right"
+    "transit.local.trip.destination.right",
+    "transitlocaltripstop",
+    "transitlocation",
+    "transitlocateno",
+    "transitlocalvillage",
+    "transitlocaltunnel"
   ],
   "palette": [
     {
