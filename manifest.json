@@ -2,7 +2,7 @@
   "name": "signum",
   "version": "1.0.0",
   "artboardSize": 1100,
-  "iconCount": 10,
+  "iconCount": 24,
   "icons": [
     "weather.thermometre.no",
     "weather.wind.hose",
@@ -13,7 +13,21 @@
     "weather.time.day",
     "weather.thermometreminus",
     "weather.thermometre",
-    "weather.thermometre.plus"
+    "weather.thermometre.plus",
+    "transit.location.shared",
+    "transit.location.refresh",
+    "transit.location.plusover",
+    "transit.location.minusover",
+    "transit.locate",
+    "transit.locate.no",
+    "transit.local.village",
+    "transit.local.tunnel",
+    "transit.local.trip.turn",
+    "transit.local.trip.start",
+    "transit.local.trip.lane.right",
+    "transit.local.trip.lane.left",
+    "transit.local.trip.end",
+    "transit.local.trip.destination.right"
   ],
   "palette": [
     {
