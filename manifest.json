@@ -2,6 +2,23 @@
   "name": "signum",
   "version": "1.0.0",
   "artboardSize": 1100,
-  "iconCount": 0,
-  "icons": []
+  "iconCount": 10,
+  "icons": [
+    "weather.thermometre.no",
+    "weather.wind.hose",
+    "weather.umbrella",
+    "weather.umbrella.closed",
+    "weather.time.night",
+    "weather.time.night.stary",
+    "weather.time.day",
+    "weather.thermometreminus",
+    "weather.thermometre",
+    "weather.thermometre.plus"
+  ],
+  "palette": [
+    {
+      "name": "primary",
+      "defaultHex": "#ffffff"
+    }
+  ]
 }
