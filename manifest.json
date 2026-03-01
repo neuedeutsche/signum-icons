@@ -1,9 +1,11 @@
 {
   "name": "signum",
   "version": "1.0.0",
-  "artboardSize": 11,
-  "iconCount": 0,
-  "icons": [],
+  "artboardSize": 1100,
+  "iconCount": 1,
+  "icons": [
+    "design-selection-vertical"
+  ],
   "colorMode": "multicolor",
   "palette": [
     {
