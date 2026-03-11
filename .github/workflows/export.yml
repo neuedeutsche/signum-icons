@@ -1,0 +1,128 @@
+# JustDraw Export Pipeline — auto-installed (v4)
+# Validates, optimizes SVGs, generates all platform packages, deploys to GitHub Pages.
+#
+# Setup: Enable GitHub Pages in repo Settings → Pages → Source: "GitHub Actions"
+# CDN: https://{owner}.github.io/{repo}/svg/{name}.svg
+# Optional: Set WEBHOOK_URL secret for Slack/Discord publish notifications.
+
+name: Export Icons
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'icons/**'
+      - 'manifest.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Quality gate
+        run: npx @justdraw/cli@0.3.2 validate . --allow-empty
+      - name: Fetch previous manifest
+        run: |
+          PAGES_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}"
+          mkdir -p _prev
+          curl -sf "${PAGES_URL}/manifest.json" -o _prev/manifest.json || echo '{"icons":[]}' > _prev/manifest.json
+      - name: Auto-bump version
+        run: npx @justdraw/cli@0.3.2 version . --dist _prev
+      - name: Run export pipeline
+        run: npx @justdraw/cli@0.3.2 export . --out _site
+      - name: Generate npm package
+        run: npx @justdraw/cli@0.3.2 npm-gen _site --out _site/npm
+      - name: Generate Iconify JSON
+        run: npx @justdraw/cli@0.3.2 iconify-gen _site
+      - name: Generate SPM package
+        run: npx @justdraw/cli@0.3.2 spm-gen _site --out _site/spm
+      - name: Generate Gradle package
+        run: npx @justdraw/cli@0.3.2 gradle-gen _site --out _site/gradle
+      - name: Generate framework packages
+        run: |
+          npx @justdraw/cli@0.3.2 framework-gen _site --framework react --out _site/packages/react
+          npx @justdraw/cli@0.3.2 framework-gen _site --framework react-native --out _site/packages/react-native
+          npx @justdraw/cli@0.3.2 framework-gen _site --framework vue --out _site/packages/vue
+          npx @justdraw/cli@0.3.2 framework-gen _site --framework svelte --out _site/packages/svelte
+          npx @justdraw/cli@0.3.2 framework-gen _site --framework web-component --out _site/packages/web-component
+      - name: Generate CONTRIBUTING.md
+        run: npx @justdraw/cli@0.3.2 contributing . --out _site
+      - name: Generate llms.txt
+        run: npx @justdraw/cli@0.3.2 llms-gen _site --out _site
+      - name: Generate DESIGN-SYSTEM.md
+        run: npx @justdraw/cli@0.3.2 design-system-gen _site --out _site
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Read manifest version
+        id: version
+        run: echo "version=$(node -e "console.log(JSON.parse(require('fs').readFileSync('_site/manifest.json','utf-8')).version)")" >> "$GITHUB_OUTPUT"
+      - name: Send webhook notification
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          PAGES_URL: ${{ steps.deployment.outputs.page_url || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+        run: |
+          if [ -n "$WEBHOOK_URL" ]; then
+            npx @justdraw/cli@0.3.2 notify _site
+          fi
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+
+  deploy:
+    needs: export
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  release:
+    needs: [export, deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.export.outputs.version }}
+        run: |
+          TAG="v${VERSION}"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists — skipping."
+            exit 0
+          fi
+          if git ls-remote --tags origin "refs/tags/$TAG" | grep -q .; then
+            echo "Tag $TAG exists without release — creating release from existing tag."
+            gh release create "$TAG" \
+              --title "$TAG" \
+              --generate-notes \
+              --latest \
+              --verify-tag
+          else
+            gh release create "$TAG" \
+              --title "$TAG" \
+              --generate-notes \
+              --latest
+          fi

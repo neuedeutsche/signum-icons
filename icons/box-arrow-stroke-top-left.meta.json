@@ -1,0 +1,48 @@
+{
+  "tags": [
+    "arrow",
+    "box",
+    "direction",
+    "left",
+    "orientation",
+    "pointing",
+    "rectangle",
+    "square",
+    "top"
+  ],
+  "status": "draft",
+  "category": "box",
+  "variantOf": {
+    "sourceIconId": "icon_770",
+    "rotate": 90,
+    "state": "linked",
+    "createdAt": 1773229217331
+  },
+  "document": {
+    "paths": [],
+    "layers": [
+      {
+        "id": "default",
+        "name": "Foreground",
+        "visible": true,
+        "locked": false,
+        "opacity": 1,
+        "paths": [],
+        "componentRefs": [
+          {
+            "id": "path_20932",
+            "iconRef": "icon_770",
+            "transform": {
+              "x": 11,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 90
+            },
+            "locked": true
+          }
+        ]
+      }
+    ]
+  }
+}
