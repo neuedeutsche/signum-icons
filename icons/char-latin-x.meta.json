@@ -1,0 +1,168 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14897",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 7.401500000000001,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 5.4301,
+              "y": 6,
+              "type": "line"
+            },
+            {
+              "x": 5.5696,
+              "y": 6,
+              "type": "line"
+            },
+            {
+              "x": 3.5982000000000007,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 2.4016,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 5.030200000000001,
+              "y": 5,
+              "type": "line"
+            },
+            {
+              "x": 5.9697000000000005,
+              "y": 5,
+              "type": "line"
+            },
+            {
+              "x": 8.5983,
+              "y": 9,
+              "type": "line"
+            }
+          ]
+        },
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 7.401500000000001,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 5.4301,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 5.5696,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 3.5982000000000007,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 2.4016,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 5.030200000000001,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 5.9697000000000005,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 8.5983,
+                "y": 9,
+                "type": "line"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 3.598500000000001,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 5.5699000000000005,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 5.430400000000001,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 7.401800000000001,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 8.5984,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 5.9698,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 5.0303,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 2.4017000000000004,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

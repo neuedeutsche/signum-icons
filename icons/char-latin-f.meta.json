@@ -1,0 +1,128 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14878",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 7.75,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 4,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 4,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 3,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 3,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 7.75,
+              "y": 2,
+              "type": "line"
+            }
+          ]
+        },
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 7.75,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 4,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 4,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 3,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 3,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 7.75,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 7.3,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 3.5,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 3.5,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 7.3,
+                "y": 6,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

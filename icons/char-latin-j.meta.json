@@ -1,0 +1,222 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14883",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 4,
+              "y": 6,
+              "type": "line"
+            },
+            {
+              "x": 4,
+              "y": 6.8,
+              "type": "curve"
+            },
+            {
+              "x": 4,
+              "y": 7.562200000000001,
+              "type": "offcurve"
+            },
+            {
+              "x": 4.3735,
+              "y": 8,
+              "type": "offcurve"
+            },
+            {
+              "x": 4.97,
+              "y": 8,
+              "type": "curve"
+            },
+            {
+              "x": 5.611700000000001,
+              "y": 8,
+              "type": "offcurve"
+            },
+            {
+              "x": 6,
+              "y": 7.5574,
+              "type": "offcurve"
+            },
+            {
+              "x": 6,
+              "y": 6.8,
+              "type": "line"
+            },
+            {
+              "x": 6,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 7,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 7,
+              "y": 6.8,
+              "type": "curve"
+            },
+            {
+              "x": 7,
+              "y": 8.0626,
+              "type": "offcurve"
+            },
+            {
+              "x": 6.2082999999999995,
+              "y": 9,
+              "type": "offcurve"
+            },
+            {
+              "x": 4.97,
+              "y": 9,
+              "type": "curve"
+            },
+            {
+              "x": 3.7725,
+              "y": 9,
+              "type": "offcurve"
+            },
+            {
+              "x": 3,
+              "y": 8.0638,
+              "type": "offcurve"
+            },
+            {
+              "x": 3,
+              "y": 6.8,
+              "type": "line"
+            },
+            {
+              "x": 3,
+              "y": 6,
+              "type": "line"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 4,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 4,
+                "y": 6.8,
+                "type": "curve"
+              },
+              {
+                "x": 4,
+                "y": 7.562200000000001,
+                "type": "offcurve"
+              },
+              {
+                "x": 4.3735,
+                "y": 8,
+                "type": "offcurve"
+              },
+              {
+                "x": 4.97,
+                "y": 8,
+                "type": "curve"
+              },
+              {
+                "x": 5.611700000000001,
+                "y": 8,
+                "type": "offcurve"
+              },
+              {
+                "x": 6,
+                "y": 7.5574,
+                "type": "offcurve"
+              },
+              {
+                "x": 6,
+                "y": 6.8,
+                "type": "line"
+              },
+              {
+                "x": 6,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 7,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 7,
+                "y": 6.8,
+                "type": "curve"
+              },
+              {
+                "x": 7,
+                "y": 8.0626,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.2082999999999995,
+                "y": 9,
+                "type": "offcurve"
+              },
+              {
+                "x": 4.97,
+                "y": 9,
+                "type": "curve"
+              },
+              {
+                "x": 3.7725,
+                "y": 9,
+                "type": "offcurve"
+              },
+              {
+                "x": 3,
+                "y": 8.0638,
+                "type": "offcurve"
+              },
+              {
+                "x": 3,
+                "y": 6.8,
+                "type": "line"
+              },
+              {
+                "x": 3,
+                "y": 6,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

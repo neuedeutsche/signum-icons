@@ -1,0 +1,183 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14876",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 4,
+              "y": 8,
+              "type": "line"
+            },
+            {
+              "x": 4,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 5.0200000000000005,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 7.1698,
+              "y": 3,
+              "type": "offcurve"
+            },
+            {
+              "x": 8.01,
+              "y": 4.1127,
+              "type": "offcurve"
+            },
+            {
+              "x": 8.01,
+              "y": 5.5600000000000005,
+              "type": "curve"
+            },
+            {
+              "x": 8.01,
+              "y": 6.939300000000001,
+              "type": "offcurve"
+            },
+            {
+              "x": 7.174500000000001,
+              "y": 8,
+              "type": "offcurve"
+            },
+            {
+              "x": 5.0200000000000005,
+              "y": 8,
+              "type": "curve"
+            }
+          ]
+        },
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 4,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 4,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 5.0200000000000005,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 7.1698,
+                "y": 3,
+                "type": "offcurve"
+              },
+              {
+                "x": 8.01,
+                "y": 4.1127,
+                "type": "offcurve"
+              },
+              {
+                "x": 8.01,
+                "y": 5.5600000000000005,
+                "type": "curve"
+              },
+              {
+                "x": 8.01,
+                "y": 6.939300000000001,
+                "type": "offcurve"
+              },
+              {
+                "x": 7.174500000000001,
+                "y": 8,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.0200000000000005,
+                "y": 8,
+                "type": "curve"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 3,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 5.0200000000000005,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 7.8035000000000005,
+                "y": 9,
+                "type": "offcurve"
+              },
+              {
+                "x": 9.01,
+                "y": 7.4187,
+                "type": "offcurve"
+              },
+              {
+                "x": 9.01,
+                "y": 5.5600000000000005,
+                "type": "curve"
+              },
+              {
+                "x": 9.01,
+                "y": 3.6473000000000004,
+                "type": "offcurve"
+              },
+              {
+                "x": 7.8102,
+                "y": 2,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.0200000000000005,
+                "y": 2,
+                "type": "curve"
+              },
+              {
+                "x": 3,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

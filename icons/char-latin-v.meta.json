@@ -1,0 +1,122 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14895",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 3.0477999999999996,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 5.734,
+              "y": 8,
+              "type": "line"
+            },
+            {
+              "x": 5.2851,
+              "y": 8,
+              "type": "line"
+            },
+            {
+              "x": 7.9528,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 9.0472,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 5.9349,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 5.086,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 1.9522,
+              "y": 2,
+              "type": "line"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 3.0477999999999996,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 5.734,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 5.2851,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 7.9528,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 9.0472,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 5.9349,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 5.086,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 1.9522,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

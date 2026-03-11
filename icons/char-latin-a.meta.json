@@ -1,0 +1,148 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14873",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 7.961099999999999,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 5.5426,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 5.467199999999999,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 3.0394999999999994,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 1.9606999999999994,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 4.792999999999999,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 6.2176,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 9.0391,
+              "y": 9,
+              "type": "line"
+            }
+          ]
+        },
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 7.961099999999999,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 5.5426,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 5.467199999999999,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 3.0394999999999994,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 1.9606999999999994,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 4.792999999999999,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 6.2176,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 9.0391,
+                "y": 9,
+                "type": "line"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 7.58,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 3.42,
+                "y": 6,
+                "type": "line"
+              },
+              {
+                "x": 3.42,
+                "y": 7,
+                "type": "line"
+              },
+              {
+                "x": 7.58,
+                "y": 7,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

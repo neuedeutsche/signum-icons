@@ -1,0 +1,240 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14888",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 4.0571,
+              "y": 8.15,
+              "type": "offcurve"
+            },
+            {
+              "x": 2.85,
+              "y": 6.926900000000001,
+              "type": "offcurve"
+            },
+            {
+              "x": 2.85,
+              "y": 5.5,
+              "type": "curve",
+              "smooth": true
+            },
+            {
+              "x": 2.85,
+              "y": 4.0731,
+              "type": "offcurve"
+            },
+            {
+              "x": 4.0571,
+              "y": 2.85,
+              "type": "offcurve"
+            },
+            {
+              "x": 5.51,
+              "y": 2.85,
+              "type": "curve",
+              "smooth": true
+            },
+            {
+              "x": 6.960800000000001,
+              "y": 2.85,
+              "type": "offcurve"
+            },
+            {
+              "x": 8.15,
+              "y": 4.071000000000001,
+              "type": "offcurve"
+            },
+            {
+              "x": 8.15,
+              "y": 5.5,
+              "type": "curve",
+              "smooth": true
+            },
+            {
+              "x": 8.15,
+              "y": 6.929,
+              "type": "offcurve"
+            },
+            {
+              "x": 6.960799999999999,
+              "y": 8.15,
+              "type": "offcurve"
+            },
+            {
+              "x": 5.51,
+              "y": 8.15,
+              "type": "curve",
+              "smooth": true
+            }
+          ]
+        },
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 4.0571,
+                "y": 8.15,
+                "type": "offcurve"
+              },
+              {
+                "x": 2.85,
+                "y": 6.926900000000001,
+                "type": "offcurve"
+              },
+              {
+                "x": 2.85,
+                "y": 5.5,
+                "type": "curve",
+                "smooth": true
+              },
+              {
+                "x": 2.85,
+                "y": 4.0731,
+                "type": "offcurve"
+              },
+              {
+                "x": 4.0571,
+                "y": 2.85,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.51,
+                "y": 2.85,
+                "type": "curve",
+                "smooth": true
+              },
+              {
+                "x": 6.960800000000001,
+                "y": 2.85,
+                "type": "offcurve"
+              },
+              {
+                "x": 8.15,
+                "y": 4.071000000000001,
+                "type": "offcurve"
+              },
+              {
+                "x": 8.15,
+                "y": 5.5,
+                "type": "curve",
+                "smooth": true
+              },
+              {
+                "x": 8.15,
+                "y": 6.929,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.960799999999999,
+                "y": 8.15,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.51,
+                "y": 8.15,
+                "type": "curve",
+                "smooth": true
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 7.5192,
+                "y": 9.15,
+                "type": "offcurve"
+              },
+              {
+                "x": 9.15,
+                "y": 7.471,
+                "type": "offcurve"
+              },
+              {
+                "x": 9.15,
+                "y": 5.5,
+                "type": "curve",
+                "smooth": true
+              },
+              {
+                "x": 9.15,
+                "y": 3.529,
+                "type": "offcurve"
+              },
+              {
+                "x": 7.5192,
+                "y": 1.85,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.51,
+                "y": 1.85,
+                "type": "curve",
+                "smooth": true
+              },
+              {
+                "x": 3.5029,
+                "y": 1.85,
+                "type": "offcurve"
+              },
+              {
+                "x": 1.85,
+                "y": 3.526900000000001,
+                "type": "offcurve"
+              },
+              {
+                "x": 1.85,
+                "y": 5.5,
+                "type": "curve",
+                "smooth": true
+              },
+              {
+                "x": 1.85,
+                "y": 7.4731,
+                "type": "offcurve"
+              },
+              {
+                "x": 3.5029,
+                "y": 9.15,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.51,
+                "y": 9.15,
+                "type": "curve",
+                "smooth": true
+              }
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

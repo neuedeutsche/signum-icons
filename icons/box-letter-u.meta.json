@@ -1,0 +1,182 @@
+{
+  "tags": [
+    "alphabet",
+    "box",
+    "character",
+    "contained",
+    "glyph",
+    "letter",
+    "rectangle",
+    "square",
+    "type"
+  ],
+  "status": "draft",
+  "category": "box",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14727",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 2,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 9,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "type": "line"
+            }
+          ]
+        },
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 2,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 9,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 9,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 2,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 4.26,
+                "y": 8.1,
+                "type": "offcurve"
+              },
+              {
+                "x": 3.5,
+                "y": 7.390000000000001,
+                "type": "offcurve"
+              },
+              {
+                "x": 3.5,
+                "y": 5.73,
+                "type": "curve"
+              },
+              {
+                "x": 3.5,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 4.5,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 4.5,
+                "y": 5.73,
+                "type": "line"
+              },
+              {
+                "x": 4.5,
+                "y": 6.78,
+                "type": "offcurve"
+              },
+              {
+                "x": 4.87,
+                "y": 7.1000000000000005,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.47,
+                "y": 7.1000000000000005,
+                "type": "curve"
+              },
+              {
+                "x": 6.1000000000000005,
+                "y": 7.1000000000000005,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.5,
+                "y": 6.78,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.5,
+                "y": 5.73,
+                "type": "curve"
+              },
+              {
+                "x": 6.5,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 7.5,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 7.5,
+                "y": 5.73,
+                "type": "line"
+              },
+              {
+                "x": 7.5,
+                "y": 7.390000000000001,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.72,
+                "y": 8.1,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.47,
+                "y": 8.1,
+                "type": "curve"
+              }
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

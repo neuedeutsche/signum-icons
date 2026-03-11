@@ -1,0 +1,162 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14887",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 8.5,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 8.5,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 7.7022,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 2.8221999999999996,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 3.5,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 3.5,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 2.4999999999999996,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 2.4999999999999996,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 3.2977999999999996,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 8.1778,
+              "y": 8,
+              "type": "line"
+            },
+            {
+              "x": 7.5,
+              "y": 8,
+              "type": "line"
+            },
+            {
+              "x": 7.5,
+              "y": 2,
+              "type": "line"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 8.5,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 8.5,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 7.7022,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 2.8221999999999996,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 3.5,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 3.5,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 2.4999999999999996,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 2.4999999999999996,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 3.2977999999999996,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 8.1778,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 7.5,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 7.5,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

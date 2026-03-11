@@ -1,0 +1,105 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "digit",
+    "figure",
+    "glyph",
+    "number",
+    "numeral",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14905",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 3,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 8.2815,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 5.0507,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 3.9493,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 6.718500000000001,
+              "y": 3,
+              "type": "line"
+            },
+            {
+              "x": 3,
+              "y": 3,
+              "type": "line"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 3,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 8.2815,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 5.0507,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 3.9493,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 6.718500000000001,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 3,
+                "y": 3,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

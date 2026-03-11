@@ -1,0 +1,82 @@
+{
+  "tags": [
+    "alphabet",
+    "character",
+    "glyph",
+    "letter",
+    "type"
+  ],
+  "status": "draft",
+  "category": "letter",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14882",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 6,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 6,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 5,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 5,
+              "y": 2,
+              "type": "line"
+            }
+          ]
+        },
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 6,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 6,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 5,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 5,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "blendMode": "normal"
+      }
+    ]
+  }
+}

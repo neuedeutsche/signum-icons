@@ -1,0 +1,208 @@
+{
+  "tags": [
+    "alphabet",
+    "box",
+    "character",
+    "contained",
+    "glyph",
+    "letter",
+    "rectangle",
+    "square",
+    "type"
+  ],
+  "status": "draft",
+  "category": "box",
+  "document": {
+    "paths": [
+      {
+        "id": "path_14666",
+        "contour": {
+          "id": "c1",
+          "closed": true,
+          "nodes": [
+            {
+              "x": 2,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 9,
+              "y": 9,
+              "type": "line"
+            },
+            {
+              "x": 9,
+              "y": 2,
+              "type": "line"
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "type": "line"
+            }
+          ]
+        },
+        "contours": [
+          {
+            "id": "c1",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 2,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 9,
+                "y": 9,
+                "type": "line"
+              },
+              {
+                "x": 9,
+                "y": 2,
+                "type": "line"
+              },
+              {
+                "x": 2,
+                "y": 2,
+                "type": "line"
+              }
+            ]
+          },
+          {
+            "id": "c2",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 4,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 4,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 5.53,
+                "y": 3,
+                "type": "line"
+              },
+              {
+                "x": 6.48,
+                "y": 3,
+                "type": "offcurve"
+              },
+              {
+                "x": 7.2,
+                "y": 3.59,
+                "type": "offcurve"
+              },
+              {
+                "x": 7.2,
+                "y": 4.5200000000000005,
+                "type": "curve"
+              },
+              {
+                "x": 7.2,
+                "y": 5.21,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.76,
+                "y": 5.75,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.3100000000000005,
+                "y": 5.94,
+                "type": "curve"
+              },
+              {
+                "x": 7.74,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 6.5,
+                "y": 8,
+                "type": "line"
+              },
+              {
+                "x": 5,
+                "y": 5.82,
+                "type": "line"
+              },
+              {
+                "x": 5,
+                "y": 8,
+                "type": "line"
+              }
+            ]
+          },
+          {
+            "id": "c3",
+            "closed": true,
+            "nodes": [
+              {
+                "x": 5,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 5.53,
+                "y": 5,
+                "type": "line"
+              },
+              {
+                "x": 6.0200000000000005,
+                "y": 5,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.2,
+                "y": 4.8500000000000005,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.2,
+                "y": 4.5200000000000005,
+                "type": "curve"
+              },
+              {
+                "x": 6.2,
+                "y": 4.13,
+                "type": "offcurve"
+              },
+              {
+                "x": 6.03,
+                "y": 4,
+                "type": "offcurve"
+              },
+              {
+                "x": 5.53,
+                "y": 4,
+                "type": "curve"
+              },
+              {
+                "x": 5,
+                "y": 4,
+                "type": "line"
+              }
+            ]
+          }
+        ],
+        "fills": [
+          {
+            "type": "solid",
+            "color": "#000000",
+            "opacity": 1
+          }
+        ],
+        "strokes": [],
+        "colorSlot": "primary",
+        "blendMode": "normal"
+      }
+    ]
+  }
+}
